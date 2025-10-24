@@ -156,6 +156,8 @@ More...
 
 ### HOI Detection: Instance-based, to detect the human-object pairs and classify the interactions.
 
+- GroupHOI (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2510.18357)
+
 - Merge-then-split (ICCV 2025), [[Paper]](https://arxiv.org/pdf/2509.00760)
 
 - DQEN (arXiv 2025), [[Paper]](https://arxiv.org/pdf/2508.18896), [[Code]](https://github.com/lzzhhh1019/DQEN)
@@ -826,6 +828,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[UniVRD w/ extra data+VLM](https://arxiv.org/pdf/2303.08998.pdf)|arXiv2023|38.61| 33.39| 40.16|-|-|-|
 |[SCTC](https://arxiv.org/pdf/2401.05676.pdf)|AAAI2024|39.12 |36.09| 39.87|-|-|-|
 |[BCOM](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Bilateral_Adaptation_for_Human-Object_Interaction_Detection_with_Occlusion-Robustness_CVPR_2024_paper.pdf)|CVPR2024|39.34 |39.90| 39.17| 42.24| 42.86| 42.05|
+|[GroupHOI](https://arxiv.org/pdf/2510.18357)|arXiv2025|40.53 |40.62| 40.50| 42.70| 42.92| 42.64|
 |[UniHOI](https://github.com/Caoyichao/UniHOI)|NeurIPS2023|40.95 |40.27 |41.32| 43.26| 43.12| 43.25|
 |[DiffHOI w/ syn data](https://arxiv.org/pdf/2305.12252.pdf)|arXiv2023|41.50| 39.96| 41.96| 43.62| 41.41| 44.28|
 |[DiffusionHOI](https://arxiv.org/pdf/2410.20155)|NeurIPS2024|42.54 |42.95 |42.35 |44.91 |45.18 |44.83|
@@ -1146,6 +1149,7 @@ The finetuned detector would learn to **only detect the interactive humans and o
 |[DT](https://arxiv.org/pdf/2204.09290.pdf)|CVPR2022|66.2|
 |[MP-HOI](https://mp-hoi.github.io/)|CVPR2024|66.2|
 |[CLIP4HOI](https://openreview.net/pdf?id=nqIIWnwe73) |NeurIPS2023|66.3|
+|[GroupHOI](https://arxiv.org/pdf/2510.18357)|arXiv2025|66.4|
 |[GENs+DP-HOI](https://github.com/xingaoli/DP-HOI)|CVPR2024|66.6|
 |[GEN-VLKT-L + CQL](https://arxiv.org/pdf/2303.14005.pdf)|CVPR2023|66.8|
 |[CycleHOI](https://arxiv.org/pdf/2407.11433)|arXiv2024|66.8|
